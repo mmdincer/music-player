@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#music-img {
+    width: 139px;
+    height: 157px;
+}
+
+#card {
+    width: 650px;
+}
+
+.controls #controls-icons i {
+    font-size: 30px;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+#volume-icon i {
+    margin-top: 25px;
+    font-size: 15px;
+    margin-left: 25px; 
+}
+
+#volume-range {
+    width: 100px;
+}
+
+#playlist i {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+
+#next {
+    margin-left: 40px;
+}
+
+#play {
+    position: absolute;
+}
+
+#pause {
+    position: absolute;
+}
+
+#song {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#artist {
+    font-size: 15px;
+    font-weight: light;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-wrapper {
+    flex-grow: 1;
+}
+
+
